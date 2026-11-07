@@ -16,7 +16,7 @@ A partir del diseño, el sistema genera automáticamente un cálculo exacto de m
 
 Para garantizar una entrega rápida que permita priorizar la tracción del producto antes de la fecha límite (13 de noviembre), optamos por una arquitectura de Monolito Modular. Esta decisión técnica nos permite mantener la simplicidad de despliegue sin sacrificar la separación de dominios (clientes, cálculo, proveedores).
 
-* Backend: Java 25, Spring Boot 3.x, Spring Modulith.
+* Backend: Java 25, Spring Boot 4.x, Spring Modulith.
 * Base de Datos y ORM: MySQL, JPA/Hibernate.
 * Infraestructura Local: Docker y Docker Compose.
 * Frontend (Proyectado): Framework web moderno con integración 3D/AR (React Three Fiber, Google model-viewer).
